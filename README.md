@@ -18,4 +18,11 @@ const graph = {
   end: node
 */
 const shortestPath = dijkstras(graph, 'A', 'D');
+
+/*
+    Returns [Array, Number]
+    
+    Array is an array of optimal steps from start to end
+    Number is the total cost
+*/ 
 ```
